@@ -21,4 +21,4 @@ print("Twój wynik to: {:.3f}".format(score))
 # Oczekiwany wynik: „47,1% programistów używa Pythona!”
 
 value_percentage = format(format(41737//88615) * 100)
-print(" {:.1f}".format(value_percentage) + " programistów używa Pythona!")
+print("{:.1f}".format(value_percentage) + " programistów używa Pythona!")
