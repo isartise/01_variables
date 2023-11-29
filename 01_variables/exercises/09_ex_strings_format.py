@@ -20,5 +20,9 @@ print("Twój wynik to: {:.3f}".format(score))
 # Wydrukuj ten ułamek jako procent z dokładnością do jednego miejsca po przecinku.
 # Oczekiwany wynik: „47,1% programistów używa Pythona!”
 
-value_percentage = format(format(41737//88615) * 100)
-print("{:.1f}".format(value_percentage) + " programistów używa Pythona!")
+value_percentage = float(float(41737/88615) * 100)
+print("{:.1f}".format(value_percentage) + "% programistów używa Pythona!")
+
+
+
+

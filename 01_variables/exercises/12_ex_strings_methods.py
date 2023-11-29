@@ -4,7 +4,9 @@
 #
 # Np. w przypadku imienia „jan” wyświetl „Witaj Jan”
 
+user_name = input("Provide your name:")
 
+print("Witaj " + user_name.capitalize())
 # 2
 # Napisz kod, który policzy, ile razy fraza „Nowy Jork” została użyta w następującym fragmencie:
 
@@ -18,12 +20,22 @@ New York City is also the most densely populated major city in the United States
 # 3
 # Napisz kod, który znajdzie frazę „population” w tekście zmiennym (od #2). Wydrukuj indeks.
 
+index_of_population = text.find("population")
+print(index_of_population)
+
+
+
 
 # 4
 # Napisz kod, który zastąpi każdą frazę "New York City" słowem „NYC” w powyższym fragmencie tekstu.
 
-
+text_with_replacement = text.replace("New York City", "NYC")
+print(text_with_replacement)
 # 5
 # Użyj wyniku z punktu 3, aby wydrukować fragment tekstu wokół słowa „population”, w tym:
 # 25 znaków przed słowem i 25 znaków po słowie.
 
+index_of_population = text.find("population")
+print(index_of_population)
+
+print(text[:index_of_population])
