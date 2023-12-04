@@ -36,6 +36,6 @@ print(text_with_replacement)
 # 25 znaków przed słowem i 25 znaków po słowie.
 
 index_of_population = text.find("population")
-print(index_of_population)
+print(text[124:149] + str(index_of_population) + text[149:174])
 
 print(text[:index_of_population])
